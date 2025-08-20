@@ -1,0 +1,20 @@
+param (
+    [string]$Path
+)
+
+# Vérifie si un chemin a été fourni
+if (-not $Path) {
+    Write-Host "Aucun chemin fourni."
+    exit 1
+}
+
+# Récupère le nom sans extension
+$baseName = [System.IO.Path]::GetFileNameWithoutExtension($Path)
+$directory = [System.IO.Path]::GetDirectoryName($Path)
+$newFilePath = Join-Path $directory "$baseName.txt"
+
+# Crée le fichier texte vide
+New-Item -Path $newFilePath -ItemType File -Force | Out-Null
+
+# Facultatif : ouvrir le fichier dans le Bloc-Notes
+Start-Process notepad.exe $newFilePath

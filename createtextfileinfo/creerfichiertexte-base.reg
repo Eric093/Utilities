@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Créer fichier texte]
+@="Créer fichier texte"
+
+[HKEY_CLASSES_ROOT\*\shell\Créer fichier texte\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\CreerFichierTexteDepuisSelection.ps1\" \"%1\""
