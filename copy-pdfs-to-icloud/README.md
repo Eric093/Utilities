@@ -18,4 +18,5 @@ Copie automatiquement tous les fichiers **PDF** du dossier **Téléchargements**
   brew install terminal-notifier
 
 ## Automator
-- Script ajouté dans Automator pour obtenir un menu contextuel.
+- Script ajouté dans Automator pour obtenir un menu contextuel -> automator.sh
+- Le .workflow prêt à ètre importé dans Automator est zippé.
