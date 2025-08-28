@@ -1,5 +1,3 @@
-Parfait ✅ Voici ton **README.md** complet, prêt à être sauvegardé dans le même dossier que ton script.
-
 ------
 
 ~~~markdown
