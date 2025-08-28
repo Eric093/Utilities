@@ -16,3 +16,6 @@ Copie automatiquement tous les fichiers **PDF** du dossier **Téléchargements**
 - [terminal-notifier](https://github.com/julienXX/terminal-notifier) (via Homebrew) :  
   ```bash
   brew install terminal-notifier
+
+## Automator
+- Script ajouté dans Automator pour obtenir un menu contextuel.
