@@ -58,7 +58,10 @@ python ai_prefix_renamer_cli.py \
   --collision number \
   --log-csv
 ```
-
+```
+Commande complete:
+.\rename-with-prefix.py --pattern bash --prefix LIN_ --dry-run --log-csv --ignore-case
+```
 ---
 
 ## 🧭 Interaction
