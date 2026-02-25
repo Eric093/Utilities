@@ -31,8 +31,8 @@ Un outil Python en ligne de commande pour **renommer automatiquement des fichier
 ### Clone du projet
 
 ```bash
-git clone https://github.com/ton-utilisateur/ai-prefix-renamer.git
-cd ai-prefix-renamer
+git clone https://github.com/Eric093/Utilities/rename-with-prefix.git
+cd rename-with-prefix
 ```
 
 ---
