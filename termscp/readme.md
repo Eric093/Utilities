@@ -10,3 +10,8 @@
   cd hello-world
   cargo run
   ```
+# L'install avec cargo ne fonctionne pas, (pb libsmb..)
+# Par contre, l'install avec le script du site d'origine fonctionne: 
+```
+curl --proto '=https' --tlsv1.2 -sSLf "https://git.io/JBhDb" | sh
+```
