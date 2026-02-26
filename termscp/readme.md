@@ -5,6 +5,8 @@
   rustup toolchain install stable
   ```
 - Test:
+  ```
   cargo new hello-world
   cd hello-world
   cargo run
+  ```
